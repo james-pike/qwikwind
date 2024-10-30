@@ -23,9 +23,11 @@ export default component$(() => {
   return (
     <>
             
-            <Gradient />
-
-      <Hero />
+            <div class="h-[80vh] w-full top-0 absolute bg-gradient-to-r from-purple-500 via-sky-300 to-sky-500">
+           
+</div>
+<Hero />
+     
       <Features
         highlight="Features"
         title="What you get with Qwind"
