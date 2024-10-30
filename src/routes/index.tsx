@@ -29,45 +29,46 @@ export default component$(() => {
 <Hero />
      
       <Features
-        highlight="Features"
-        title="What you get with Qwind"
+        highlight="Areas of Practice"
+        title="Services We Offer"
         subtitle="Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque rem aperiam, eaque ipsa quae."
         items={[
           {
-            title: "Qwik + Tailwind CSS Integration",
+            title: "Consultation",
             description:
               "A seamless integration between two great frameworks that offer high productivity, performance and versatility.",
             icon: IconBrandTailwind,
           },
           {
-            title: "Ready-to-use Components",
+            title: "Divorce",
             description:
               "Widgets made with Tailwind CSS ready to be used in Marketing Websites, SaaS, Blogs, Personal Profiles, Small Business...",
             icon: IconApps,
           },
           {
-            title: "Best Practices",
+            title: "Child Custody",
             description:
               "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi sagittis, quam nec venenatis lobortis, mi risus tempus nulla.",
           },
           {
-            title: "Excellent Page Speed",
+            title: "Property Division",
             description:
               "Having a good page speed impacts organic search ranking, improves user experience (UI/UX) and increase conversion rates.",
             icon: IconRocket,
           },
           {
-            title: "Search Engine Optimization (SEO)",
+            title: "Spousal Support",
             description:
               "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi sagittis, quam nec venenatis lobortis, mi risus tempus nulla.",
             icon: IconBrandGoogle,
           },
           {
-            title: "Open to new ideas and contributions",
+            title: "Mediaiton",
             description:
               "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi sagittis, quam nec venenatis lobortis, mi risus tempus nulla.",
             icon: IconBulb
           },
+          
         ]}
       />
       

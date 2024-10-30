@@ -13,11 +13,8 @@ export default component$(() => {
       items: [
         { title: "Features", href: "#" },
         { title: "Security", href: "#" },
-        { title: "Team", href: "#" },
-        { title: "Enterprise", href: "#" },
-        { title: "Customer stories", href: "#" },
-        { title: "Pricing", href: "#" },
-        { title: "Resources", href: "#" },
+       
+   
       ],
     },
     {
@@ -25,9 +22,8 @@ export default component$(() => {
       items: [
         { title: "Developer API", href: "#" },
         { title: "Partners", href: "#" },
-        { title: "Atom", href: "#" },
-        { title: "Electron", href: "#" },
-        { title: "Qwind Desktop", href: "#" },
+       
+      
       ],
     },
     {
@@ -35,9 +31,7 @@ export default component$(() => {
       items: [
         { title: "Docs", href: "#" },
         { title: "Community Forum", href: "#" },
-        { title: "Professional Services", href: "#" },
-        { title: "Skills", href: "#" },
-        { title: "Status", href: "#" },
+    
       ],
     },
     {
@@ -45,11 +39,8 @@ export default component$(() => {
       items: [
         { title: "About", href: "#" },
         { title: "Blog", href: "#" },
-        { title: "Careers", href: "#" },
-        { title: "Press", href: "#" },
-        { title: "Inclusion", href: "#" },
-        { title: "Social Impact", href: "#" },
-        { title: "Shop", href: "#" },
+      
+      
       ],
     },
   ];
@@ -57,7 +48,7 @@ export default component$(() => {
   const social = [
     { label: "Twitter", icon: IconTwitter, href: "#" },
     { label: "Instagram", icon: IconInstagram, href: "#" },
-    { label: "Facebook", icon: IconFacebook, href: "#" },
+   
     {
       label: "Github",
       icon: IconGithub,
