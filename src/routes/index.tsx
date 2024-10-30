@@ -23,7 +23,7 @@ export default component$(() => {
   return (
     <>
             
-            <Gradient className="absolute inset-0 bottom-0 rounded-2xl ring-1 ring-inset ring-black/5" />
+            <Gradient class="absolute inset-0 bottom-0 rounded-2xl ring-1 ring-inset ring-black/5" />
 
       <Hero />
       <Features
