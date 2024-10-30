@@ -23,7 +23,7 @@ export default component$(() => {
   return (
     <>
             
-            <div class="h-[80vh] w-full top-0 absolute bg-gradient-to-r from-purple-500 via-sky-300 to-sky-500">
+            <div class="h-[80vh] w-full top-0 absolute bg-gradient-to-r from-gray-100 via-blue-200 to-gray-200">
            
 </div>
 <Hero />
