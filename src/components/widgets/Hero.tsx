@@ -1,7 +1,7 @@
 import { component$ } from "@builder.io/qwik";
 import { Image } from "@unpic/qwik";
 
-const coverImage = "/src/assets/images/hero.png";
+const coverImage = "/src/assets/images/mp.jpg";
 
 
 export default component$(() => {
@@ -39,7 +39,7 @@ export default component$(() => {
                     target="_blank"
                     rel="noopener"
                   >
-                    Get template
+                    Book A Free Consultation
                   </a>
                 </div>
                 <div class="flex w-full sm:w-auto">
