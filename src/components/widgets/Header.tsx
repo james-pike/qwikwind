@@ -16,7 +16,7 @@ export default component$(() => {
   return (
     <header
       id="header"
-      class={`sticky top-0 z-40 flex-none mx-auto w-full border-b border-gray-50/0 transition-[opacity] ease-in-out ${
+      class={`sticky top-0 z-40 flex-none mx-auto w-full border-b-0 border-b-black border-gray-50/0 transition-[opacity] ease-in-out ${
         store.isScrolling
           ? " md:bg-white/90 md:backdrop-blur-sm dark:md:bg-slate-900/90 bg-white dark:bg-slate-900"
           : ""

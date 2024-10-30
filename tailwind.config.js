@@ -14,8 +14,10 @@ module.exports = {
       fontFamily: {
         sans: ["'Inter Variable'", ...defaultTheme.fontFamily.sans],
       },
+      borderRadius: {
+        '4xl': '2rem',
     },
   },
   plugins: [require("@tailwindcss/typography")],
   darkMode: "class",
-};
+},};

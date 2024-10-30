@@ -17,10 +17,14 @@ const IconBrandGoogle = qwikSerialized(() => import("../components/icons/IconBra
 const IconBulb = qwikSerialized(() => import("../components/icons/IconBulb"));
 
 import { SITE } from "~/config.mjs";
+import { Gradient } from "~/components/widgets/gradient";
 
 export default component$(() => {
   return (
     <>
+            
+            <Gradient className="absolute inset-0 bottom-0 rounded-2xl ring-1 ring-inset ring-black/5" />
+
       <Hero />
       <Features
         highlight="Features"
@@ -64,6 +68,7 @@ export default component$(() => {
           },
         ]}
       />
+      
       <Steps />
       <FAQs
         title="Frequently Asked Questions"
