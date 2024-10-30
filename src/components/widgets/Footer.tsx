@@ -5,7 +5,6 @@ import IconTwitter from "~/components/icons/IconTwitter"
 import IconInstagram from "~/components/icons/IconInstagram"
 import IconFacebook from "~/components/icons/IconFacebook"
 import IconGithub from "~/components/icons/IconGithub"
-import { Gradient, GradientBackground } from "./gradient";
 
 export default component$(() => {
   const links = [

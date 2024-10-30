@@ -5,7 +5,7 @@ import type { DocumentHead } from "@builder.io/qwik-city";
 import type { Post } from "~/types";
 import { fetchPosts } from "~/utils/posts";
 import { SITE } from "~/config.mjs";
-import { GradientBackground } from "~/components/widgets/gradient";
+
 
 export default component$(() => {
   const store = useStore<{ posts: Post[] }>({
